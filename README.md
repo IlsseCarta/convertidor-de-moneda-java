@@ -21,6 +21,8 @@ Este proyecto consta de cuatro clases principales:
 3. Ingresa la cantidad de dinero a convertir.
 4. Obtén el resultado de la conversión.
 
+- [Video Demostrativo](https://youtu.be/JEuVO8nzzfk) 📽️
+
 ## Configuración
 
 Antes de ejecutar el programa, asegúrate de tener instalado Java en tu sistema. Además, este proyecto utiliza la biblioteca Gson para el manejo de JSON, por lo que necesitarás agregarla a tu proyecto si aún no lo has hecho.
