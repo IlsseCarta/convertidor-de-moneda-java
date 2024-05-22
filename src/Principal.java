@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -14,7 +15,7 @@ public class Principal {
         String argumento2 = null;
         double tasaDeCambio = 0;
         double cantidadAConvertir = 0;
-        int resultado = 0;
+        double resultado = 0;
         MenuPrincipal.lanzarMensaje();
         while (true) {
             System.out.println(ANSI_BLUE + "Escoge la moneda que deseas CAMBIAR:" + ANSI_RESET);
@@ -115,8 +116,9 @@ public class Principal {
                 continue;
             }
             tasaDeCambio = BuscarTasaDeCambio.generarTasa(argumento1, argumento2);
-            resultado = (int) (tasaDeCambio * cantidadAConvertir);
-            System.out.println(ANSI_YELLOW + (int) cantidadAConvertir + " " + argumento1 + " Equivalen a: " + resultado + " " + argumento2 + ANSI_RESET);
+            resultado = (tasaDeCambio * cantidadAConvertir);
+
+            System.out.println(ANSI_YELLOW + cantidadAConvertir + " " + argumento1 + " Equivalen a: " + new DecimalFormat("#.##").format(resultado) + " " + argumento2 + ANSI_RESET);
             Reinicio.lanzarReinicio();
             String rta = null;
             Scanner teclado4 = new Scanner(System.in);
