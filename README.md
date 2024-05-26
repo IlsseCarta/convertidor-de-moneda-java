@@ -1,6 +1,6 @@
 # Convertidor de Moneda Java
 
-Este proyecto hace parte de los desafíos planteados en el Programa One de Oracle Next Education y Alura Latam. Es un convertidor de moneda en Java que utiliza la API de ExchangeRate-API para obtener las tasas de cambio en tiempo real.
+Este proyecto es parte del Programa One de Oracle Next Education y Alura Latam, abordando uno de sus desafíos. Se trata de un convertidor de moneda desarrollado en Java que emplea la API de ExchangeRate-API para acceder a tasas de cambio actualizadas en tiempo real.
 
 ## Descripción
 
@@ -21,12 +21,10 @@ Este proyecto consta de cuatro clases principales:
 3. Ingresa la cantidad de dinero a convertir.
 4. Obtén el resultado de la conversión.
 
-- [Video Demostrativo](https://youtu.be/JEuVO8nzzfk) 📽️
+
 
 ## Configuración
 
 Antes de ejecutar el programa, asegúrate de tener instalado Java en tu sistema. Además, este proyecto utiliza la biblioteca Gson para el manejo de JSON, por lo que necesitarás agregarla a tu proyecto si aún no lo has hecho.
 
-## Créditos
 
-Este proyecto fue desarrollado por Paulo De los Reyes.
